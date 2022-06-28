@@ -1,11 +1,17 @@
- #imgcar1,
- #imgcar2,
- #imgcar3 {
+#imgcar1,
+#imgcar2,
+#imgcar3 {
 
-     -o-object-fit: cover;
-     object-fit: cover;
-     -o-object-position: center;
-     object-position: center;
-     text-align: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: inherit;
+    text-align: center;
+}
 
- }
+.col-6 {
+    text-align: center;
+    font-size:medium ;
+    
+    
+}
